@@ -43,5 +43,16 @@ body {
   background-color: black;
 }
 .bodMargin{
-  margin-bottom: 80%;
+  margin-bottom: 30%;
 }
+@media (max-width: 768px) {
+  .bodMargin{
+    margin-bottom: 80%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px){
+  .bodMargin{
+    margin-bottom: 50%;
+  }
+}
+
