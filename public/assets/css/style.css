@@ -1,0 +1,47 @@
+body {
+  font-family: 'PT Serif', serif !important;
+}
+.footer{
+  height: 100px;
+  /* margin-top: 30%; */
+  color:#e3f2fd;
+  text-align: center;
+  padding-top: 3%;
+}
+.credits {
+  font-size: x-small;
+}
+.navbar-brand{
+  font-size: 30px;
+}
+.navbar-nav{
+  font-size: 15px;
+  margin-top: 0.5%;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.inicioTitles{
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.bg-pres{
+  background-image: url("/assets/images/christoffer-engstrom.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 100%;
+  height: auto; */
+}
+.bodi{
+  height: 500px;
+  background-color: black;
+}
+.bodMargin{
+  margin-bottom: 80%;
+}
