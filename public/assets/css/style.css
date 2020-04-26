@@ -1,9 +1,17 @@
 body {
   font-family: 'PT Serif', serif !important;
 }
+.center{
+  text-align: center;
+}
+.right{
+  text-align: right;
+}
+.underlined{
+  text-decoration: underline;
+}
 .footer{
   height: 100px;
-  /* margin-top: 30%; */
   color:#e3f2fd;
   text-align: center;
   padding-top: 3%;
@@ -35,19 +43,86 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 100%;
-  height: auto; */
 }
 .bodi{
   height: 500px;
-  background-color: black;
 }
 .bodMargin{
   margin-bottom: 30%;
 }
+#privacyContainer{
+  margin-top: 3% !important;
+  margin-left: 2.5% !important;
+  margin-right: 2.5% !important;
+  text-align: justify;
+  margin-bottom: 7%;
+}
+.btnpolicyDiv{
+  text-align: center;
+}
+.nosotrosContainer{
+  margin-bottom: 3%;
+}
+.nosotrosbackground{
+  background-image: url("/assets/images/aw-creative.jpg");
+  height: 300pt; 
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.liquidCrew{
+  background-image: url("/assets/images/liquid-crew.jpg");
+  height: 300pt; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cream-crew{
+  background-image: url("/assets/images/cream-crew.jpg");
+  height: 300pt; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dyeHair{
+  background-image: url("/assets/images/dye-hair.jpg");
+  height: 200pt; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hairDressing{
+  background-image: url("/assets/images/hair-dressing.jpg");
+  height: 200pt; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hairFlipping{
+  background-image: url("/assets/images/hair-flipping.jpg");
+  height: 200pt; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.titleContactDiv{
+  color: #e3f2fd !important;
+}
+.cityMap{
+  width: 500px;
+  height: 450px;
+}
 @media (max-width: 768px) {
   .bodMargin{
-    margin-bottom: 80%;
+    margin-bottom: 100%;
+  }
+  .cityMap{
+    width: 300px;
+    height: 250px;
+  }
+  .phone{
+    font-size: 10pt;
   }
 }
 @media (min-width: 769px) and (max-width: 1200px){
