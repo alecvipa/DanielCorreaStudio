@@ -124,6 +124,12 @@ body {
   .phone{
     font-size: 10pt;
   }
+  .inicioTit1{
+    font-size: 15pt;
+  }
+  .inicioTit2{
+    font-size: 13pt;
+  }
 }
 @media (min-width: 769px) and (max-width: 1200px){
   .bodMargin{
